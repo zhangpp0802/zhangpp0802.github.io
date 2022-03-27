@@ -1,6 +1,6 @@
 /* Background pattern from Toptal Subtle Patterns */
 body {
-    background-image: url("bg.jpeg");
+    background-image: url("../images/bgb.jpg");
     background-repeat: repeat;
   }
   
@@ -64,7 +64,7 @@ body {
         background-position: left 15px top, right 15px bottom , left bottom 15px , right top 15px;
       }
     }
-  }
+
   
   .log {
       overflow: hidden;
@@ -95,16 +95,17 @@ body {
   
   div.polaroid {
       display: inline-block;
-      padding: 10px;
-      box-shadow: 1px 2px 5px black;
-      background-color: white;
+      padding: 50px;
+      left: auto;
+      width: 50px;
       margin: 5px;
   }
   
   .profile-pic img {
-      width: 100px;
+      width: 180px;
+      top: 0px;
       object-position: center;
-      transition: all 500ms cubic-bezier(0.305, 0.035, 0.450, 1.650); /* custom */
+      /* transition: all 500ms cubic-bezier(0.305, 0.035, 0.450, 1.650); custom */
   }
   
   .profile-pic img:hover {

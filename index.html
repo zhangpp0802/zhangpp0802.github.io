@@ -73,50 +73,46 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-    <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+    <tr onmouseout="trustGPT_start()" onmouseover="trustGPT_end()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
-          <source src="images/nuvo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/nuvo.jpg' width=100%>
+          <div class="two" id='trustGPT'>
+          <img src='images/TrustGPT.png' width=100%>
         </div>
         <script type="text/javascript">
-          function nuvo_start() {
-            document.getElementById('nuvo_image').style.opacity = "1";
+          function trustGPT_start() {
+            document.getElementById('trustGPT').style.opacity = "1";
           }
 
-          function nuvo_stop() {
-            document.getElementById('nuvo_image').style.opacity = "0";
+          function trustGPT_end() {
+            document.getElementById('trustGPT').style.opacity = "0";
           }
-          nuvo_stop()
+          trustGPT_end()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://pratulsrinivasan.github.io/nuvo/">
-          <span class="papertitle">Nuvo: Neural UV Mapping for Unruly 3D Representations</span>
+        <a href="https://arxiv.org/html/2408.01867v1">
+          <span class="papertitle">TrustNavGPT: Modeling Uncertainty to Improve Trustworthiness of Audio-Guided LLM-Based Robot Navigation</span>
         </a>
         <br>
-        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-        <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://bmild.github.io/">Ben Mildenhall</a>
+        <a href="https://xingpengsun0.github.io/">Xingpeng Sun</a>,
+        <strong>Yiran Zhang</strong>
+        Xindi Tang,
+        <a href="https://sites.google.com/view/amritsinghbedi/home">Amrit Singh Bedi</a>,
+        <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>
         <br>
-        <em>ECCV</em>, 2024
+        <em>IROS</em>, 2024
         <br>
-        <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
-        /
-        <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
-        /
-        <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
+        <a href="https://www.arxiv.org/abs/2408.01867">arXiv</a>
         <p></p>
         <p>
         Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
         </p>
       </td>
     </tr>
+
+
+
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>

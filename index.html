@@ -23,13 +23,7 @@
                   Yiran Zhang
                 </p>
                 <p>
-                  I am currently a first-year Ph.D. in Computer Science at <a href="https://www.purdue.edu/">Purdue University</a> under the supervision of <a href="https://www.cs.purdue.edu/homes/ab/">Dr. Aniket Bera</a>. Before this, I was graduated at <a href="https://www.northwestern.edu/">Northwestern University</a> with a CS Master Degree and was fortunate to work with <a href="https://www.alexander.vision/">Dr. Emma Alexander</a>, <a href="https://dynresmanagement.com/index.html">Dr. Diego Klabjan</a>, and <a href="https://users.cs.northwestern.edu/~ian/">Dr. Ian Horswill</a>. I also received my B.S. in Computer Science and B.A. in Visual Fine Art double degrees from <a href="https://www.union.edu/">Union College</a>. 
-                </p>
-                <p>
-                  My research interest is in the field of computer graphics and VR/AR graphics and locomotion problems. I enjoy
-                  exploring various kinds of learning based methods to generate graphics models in VR. I also have a strong belief in the
-                  potential of VR/AR in our future daily use and thus I also work on projects that can help making this amazing technique come into our life soon.
-
+                  I am currently a second-year Ph.D. in Computer Science at <a href="https://www.purdue.edu/">Purdue University</a> under the supervision of <a href="https://www.cs.purdue.edu/homes/ab/">Dr. Aniket Bera</a>. Before this, I was graduated at <a href="https://www.northwestern.edu/">Northwestern University</a> with a CS Master Degree and was fortunate to work with <a href="https://www.alexander.vision/">Dr. Emma Alexander</a>, <a href="https://dynresmanagement.com/index.html">Dr. Diego Klabjan</a>, and <a href="https://users.cs.northwestern.edu/~ian/">Dr. Ian Horswill</a>. I also received my B.S. in Computer Science and B.A. in Visual Fine Art double degrees from <a href="https://www.union.edu/">Union College</a>. My research passion lies in utilizing different learning techniques to create innovative solutions for computer graphics, VR/AR, and locomotion problems.
                 </p>
                 <!-- <p>
                   During free time, I like to play tennis and watch films, especially post-Neorealismo Italian films. I'm also a huge believer of future VR film. I believe it will change the instinct of film through immersiveness. Recently, I also start scripting for my first VR film. Feel free to email me if we share common interest!
@@ -47,42 +41,31 @@
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
-
-                <!--  ----------------------- Ongoing research --------------------------  -->
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Ongoing Research</h2>
                 <p>
-                  <strong>ENI-driven Virtual Room Layout Generation </strong>
-                </p>
-                <p>
-                  Project Outline: This VR locomotion project generates visually appealing virtual scenes that allow users to naturally walk without colliding with physical objects.
-                </p>
-                <p>
-                  <strong>Face Image to Human Head Generation </strong>
+                  <strong>Image-guided High Fidelity 3D Mesh Generation</strong>
                 </p>
                 <p>
                   Project Outline: Our model generates a 360 degree 3D high-fidelity head model of a given front face image.
                   - Constructed a model for conditional 3D face generation with a built-in default head mesh.
                 </p>
-                <p>
-                  <strong>AR glasses Multimodal AI Data Collection </strong>
-                </p>
-                <p>
-                  Project Outline: Collecting and processing dataset for multimodal AI training with Meta Aria.
-                </p>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          </tbody></table> -->
 
 <!--  ----------------------- PUBLICATIONS --------------------------  -->
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 <h2>Publications</h2>
     <tr onmouseout="trustGPT_start()" onmouseover="trustGPT_end()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='trustGPT'>
+          <div class="two" id='trustGPT'></div>
+          <p></p>
           <img src='images/TrustGPT.png' width=100%>
         </div>
         <script type="text/javascript">
@@ -110,9 +93,127 @@
         <em>IROS</em>, 2024
         <br>
         <a href="https://www.arxiv.org/abs/2408.01867">arXiv</a>
-        <p></p>
+        <p>
+          An LLM-based audio-guided navigation agent that uses affective cues in spoken communication—elements to assess the trustworthiness of human commands. 
+        </p>
+        
       </td>
     </tr>
+  </tbody></table>
+<!--  ----------------------- working papers --------------------------  -->
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<h2>Working Papers</h2>
+<tr onmouseout="presi_start()" onmouseover="presi_end()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='PRESI'></div>
+      <p></p>
+      <img src='images/PRESI.png' width=100%>
+    </div>
+    <script type="text/javascript">
+      function presi_start() {
+        document.getElementById('PRESI').style.opacity = "1";
+      }
+
+      function presi_end() {
+        document.getElementById('PRESI').style.opacity = "0";
+      }
+      presi_end()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a>
+      <span class="papertitle">Virtual Scene Generation from Physical Reachable Empty Space Incompatibility: High Compatibility Virtual Environment Generation for Extended Redirected Walking</span>
+    </a>
+    <br>
+    <strong>Yiran Zhang</strong>,
+    <a href="https://xingpengsun0.github.io/">Xingpeng Sun</a>,
+    <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>
+    <br>
+    <em>TVCG</em>, 2025
+    <br>
+    <a href="https://drive.google.com/drive/folders/1VOov8tC6D1BlGFQod9uIFSnHa5cEsgUx?usp=sharing">Source Code</a>
+    <p>
+      A novel high-compatible virtual scene generation approach based on advanced compatibility metrics: Physical Reachable of Empty Space Incompatibility (PRESI).
+    </p>
+  </td>
+</tr>
+
+
+<tr onmouseout="meshDiffKF_start()" onmouseover="meshDiffKF_end()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='meshDiffKF'></div>
+      <p></p>
+      <img src='images/MeshDiff.png' width=100%>
+    </div>
+    <script type="text/javascript">
+      function meshDiffKF_start() {
+        document.getElementById('meshDiffKF').style.opacity = "1";
+      }
+
+      function meshDiffKF_end() {
+        document.getElementById('meshDiffKF').style.opacity = "0";
+      }
+      meshDiffKF_end()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a>
+      <span class="papertitle">Physics Informed Image-guided 3D Mesh Diffusion Via Mesh Deformation</span>
+    </a>
+    <br>
+    <strong>Yiran Zhang</strong>,
+    <a href="hhttps://hrishikeshvish.github.io/">Hrishikesh Viswanath</a>,
+    <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>
+    <br>
+    <em>ECCV</em>, 2025
+    <br>
+    <a href="https://github.com/zhangpp0802/3DHeadDiff">Source Code (Public Soon...)</a>
+    <p>
+      We propose a physics-inspired technique that introduces a new Neural Field model based on Kernel Integral Transform, which was proposed as the mathematical backbone of geometry-informed neural operator and reduced-order modeling.
+    </p>
+  </td>
+</tr>
+</tbody></table>
+
+<!--  ----------------------- Ongoing Research --------------------------  -->
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <h2>Ongoing Research</h2>
+      <tr onmouseout="RDWLLMPredict_start()" onmouseover="RDWLLMPredict_end()">
+        <td style="padding:16px;width:20%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='RDWLLM'></div>
+            <p></p>
+            <img src='images/TrustGPT.png' width=100%>
+          </div>
+          <script type="text/javascript">
+            function RDWLLMPredict_start() {
+              document.getElementById('RDWLLM').style.opacity = "1";
+            }
+  
+            function RDWLLMPredict_end() {
+              document.getElementById('RDWLLM').style.opacity = "0";
+            }
+            RDWLLMPredict_end()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a>
+            <span class="papertitle">Mission-based Redirected Virtual Path Prediction</span>
+          </a>
+          <br>
+          <strong>Yiran Zhang</strong>,
+          <a href="https://scholar.google.com/citations?user=yhA72LgAAAAJ&hl=en">Fengze Zhang</a>,
+          <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>
+          <br>
+          <p>
+            We introduce a interactive path planner that track the user state to predict their next destination, and pre-determine a collision-detection path through shape similarity.
+          </p>
+          
+        </td>
+      </tr>
+    </tbody></table>
 
     <!--  ------------------------ Teaching and Mentoring --------------------------  -->
   
@@ -122,6 +223,9 @@
           <!-- <heading>Teaching and Mentoring</heading> -->
           <h2>Teaching and Mentoring</h2>
           <p>
+            <li style="margin: 5px;"> 
+              <b>Teaching Assistant</b>,  <a href="https://www.cs.purdue.edu/academic-programs/courses/canonical/cs182.html">COMP_SCI 182 Foundations of Computer Science</a>, Purdue University, Spring 2025
+            </li>
             <li style="margin: 5px;"> 
               <b>Teaching Assistant</b>,  <a href="https://www.cs.purdue.edu/academic-programs/courses/canonical/cs180.html">COMP_SCI 180 Programming I</a>, Purdue University, Fall 2023-Fall 2025
             </li>

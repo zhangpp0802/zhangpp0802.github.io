@@ -99,16 +99,13 @@
         
       </td>
     </tr>
-  </tbody></table>
-<!--  ----------------------- working papers --------------------------  -->
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-<h2>Working Papers</h2>
-<tr onmouseout="presi_start()" onmouseover="presi_end()">
+
+    <tr onmouseout="presi_start()" onmouseover="presi_end()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
       <div class="two" id='PRESI'></div>
       <p></p>
-      <img src='images/PRESI.png' width=100%>
+      <img src='images/PRESI_teaser.png' width=100%>
     </div>
     <script type="text/javascript">
       function presi_start() {
@@ -123,22 +120,25 @@
   </td>
   <td style="padding:20px;width:75%;vertical-align:middle">
     <a>
-      <span class="papertitle">Virtual Scene Generation from Physical Reachable Empty Space Incompatibility: High Compatibility Virtual Environment Generation for Extended Redirected Walking</span>
+      <span class="papertitle">HCVR Scene Generation: High Compatibility Virtual Reality Environment Generation for Extended Redirected Walking</span>
     </a>
     <br>
     <strong>Yiran Zhang</strong>,
     <a href="https://xingpengsun0.github.io/">Xingpeng Sun</a>,
     <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>
     <br>
-    <em>TVCG</em>, 2025
+    <em>Proceeding to IEEE VR</em>, 2026
     <br>
     <a href="https://drive.google.com/drive/folders/1VOov8tC6D1BlGFQod9uIFSnHa5cEsgUx?usp=sharing">Source Code</a>
     <p>
-      A novel high-compatible virtual scene generation approach based on advanced compatibility metrics: Physical Reachable of Empty Space Incompatibility (PRESI).
+      HCVR virtual scene generation framework optimized for VR navigation and compatible with alignment-based redirected walking controller to provide user a unique natural walking interface.
     </p>
   </td>
 </tr>
-
+  </tbody></table>
+<!--  ----------------------- working papers --------------------------  -->
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<h2>Working Papers</h2>
 
 <tr onmouseout="meshDiffKF_start()" onmouseover="meshDiffKF_end()">
   <td style="padding:20px;width:25%;vertical-align:middle">
@@ -160,32 +160,71 @@
   </td>
   <td style="padding:20px;width:75%;vertical-align:middle">
     <a>
-      <span class="papertitle">Image-guided 3D Mesh Diffusion Through Kernel Integral Transform</span>
+      <span class="papertitle">2D Fractures to 3D Geometry Generation</span>
     </a>
     <br>
     <strong>Yiran Zhang</strong>,
     <a href="hhttps://hrishikeshvish.github.io/">Hrishikesh Viswanath</a>,
-    <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>
+    <a href="https://scholar.google.com/citations?user=DKMKhLEAAAAJ&hl=en&oi=ao">Sainan Liu</a>,
+    <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>,
+    
     <br>
-    <em>ECCV</em>, 2025
+    <em>CVPR</em>, 2026
     <br>
     <a href="https://github.com/zhangpp0802/3DHeadDiff">Source Code (Public Soon...)</a>
     <p>
-      We propose a physics-inspired technique that introduces a new Neural Field model based on Kernel Integral Transform, which was proposed as the mathematical backbone of geometry-informed neural operator and reduced-order modeling.
+      Our model generates a 3D geometry model that captures the features appear in the conditioning 2D image where contains one or more object fractures, and results are evaluated using our novel 2D to 3D descriptor metrics.
     </p>
   </td>
 </tr>
+
+<tr onmouseout="RDWLLMPredict_start()" onmouseover="RDWLLMPredict_end()">
+        <td style="padding:16px;width:20%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='RDWLLM'></div>
+            <p></p>
+            <img src='images/textureMap.jpg' width=100%>
+          </div>
+          <script type="text/javascript">
+            function RDWLLMPredict_start() {
+              document.getElementById('RDWLLM').style.opacity = "1";
+            }
+  
+            function RDWLLMPredict_end() {
+              document.getElementById('RDWLLM').style.opacity = "0";
+            }
+            RDWLLMPredict_end()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a>
+            <span class="papertitle">Mission-based Virtual Path Prediction</span>
+          </a>
+          <br>
+          <strong>Yiran Zhang</strong>,
+          <a href="https://scholar.google.com/citations?user=yhA72LgAAAAJ&hl=en">Fengze Zhang</a>,
+          <a href="https://wsheng24.github.io/">Wei Sheng</a>,
+          <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>
+          <br>
+          <em>RSS</em>, 2026
+          <br>
+          <p>
+            We introduce a multi-modal architecture that adapts a interactive path planner that track the user state to predict their next destination, pre-determine and operate the destinated object before user arrive.
+          </p>
+          
+        </td>
+      </tr>
 </tbody></table>
 
 <!--  ----------------------- Ongoing Research --------------------------  -->
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <h2>Ongoing Research</h2>
       <tr onmouseout="RDWLLMPredict_start()" onmouseover="RDWLLMPredict_end()">
         <td style="padding:16px;width:20%;vertical-align:middle">
           <div class="one">
             <div class="two" id='RDWLLM'></div>
             <p></p>
-            <!-- <img src='images/TrustGPT.png' width=100%> -->
+            <img src='images/TrustGPT.png' width=100%>
           </div>
           <script type="text/javascript">
             function RDWLLMPredict_start() {
@@ -213,7 +252,8 @@
           
         </td>
       </tr>
-    </tbody></table>
+    </tbody>
+  </table> -->
 
     <!--  ------------------------ Teaching and Mentoring --------------------------  -->
   
@@ -248,7 +288,7 @@
         <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=n1-ezeaFeS2saGWn1VGdPRQdFleNQv2e8-zx0L01Nfw"></script>
       </div>        
       <br>
-      &copy; Yiran Zhang | Last update: Aug. 09, 2024
+      &copy; Yiran Zhang | Last update: Sep. 19, 2025
     </center></p>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr>

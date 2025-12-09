@@ -61,80 +61,7 @@
 <!--  ----------------------- PUBLICATIONS --------------------------  -->
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 <h2>Publications</h2>
-    <tr onmouseout="trustGPT_start()" onmouseover="trustGPT_end()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='trustGPT'></div>
-          <p></p>
-          <img src='images/TrustGPT.png' width=100%>
-        </div>
-        <script type="text/javascript">
-          function trustGPT_start() {
-            document.getElementById('trustGPT').style.opacity = "1";
-          }
 
-          function trustGPT_end() {
-            document.getElementById('trustGPT').style.opacity = "0";
-          }
-          trustGPT_end()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/html/2408.01867v1">
-          <span class="papertitle">TrustNavGPT: Modeling Uncertainty to Improve Trustworthiness of Audio-Guided LLM-Based Robot Navigation</span>
-        </a>
-        <br>
-        <a href="https://xingpengsun0.github.io/">Xingpeng Sun</a>,
-        <strong>Yiran Zhang</strong>,
-        Xindi Tang,
-        <a href="https://sites.google.com/view/amritsinghbedi/home">Amrit Singh Bedi</a>,
-        <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>
-        <br>
-        <em>IROS</em>, 2024
-        <br>
-        <a href="https://www.arxiv.org/abs/2408.01867">arXiv</a>
-        <p>
-          An LLM-based audio-guided navigation agent that uses affective cues in spoken communication—elements to assess the trustworthiness of human commands. 
-        </p>
-        
-      </td>
-    </tr>
-
-    <tr onmouseout="presi_start()" onmouseover="presi_end()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one">
-      <div class="two" id='PRESI'></div>
-      <p></p>
-      <img src='images/PRESI_teaser.png' width=100%>
-    </div>
-    <script type="text/javascript">
-      function presi_start() {
-        document.getElementById('PRESI').style.opacity = "1";
-      }
-
-      function presi_end() {
-        document.getElementById('PRESI').style.opacity = "0";
-      }
-      presi_end()
-    </script>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a>
-      <span class="papertitle">HCVR Scene Generation: High Compatibility Virtual Reality Environment Generation for Extended Redirected Walking</span>
-    </a>
-    <br>
-    <strong>Yiran Zhang</strong>,
-    <a href="https://xingpengsun0.github.io/">Xingpeng Sun</a>,
-    <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>
-    <br>
-    <em>Proceeding to IEEE VR</em>, 2026
-    <br>
-    <a href="https://drive.google.com/drive/folders/1VOov8tC6D1BlGFQod9uIFSnHa5cEsgUx?usp=sharing">Source Code</a>
-    <p>
-      HCVR virtual scene generation framework optimized for VR navigation and compatible with alignment-based redirected walking controller to provide user a unique natural walking interface.
-    </p>
-  </td>
-</tr>
 
 <tr onmouseout="meshDiffKF_start()" onmouseover="meshDiffKF_end()">
   <td style="padding:20px;width:25%;vertical-align:middle">
@@ -172,7 +99,82 @@
       We evaluate 3D generation SOTA model's ability to solve partial 2D to 3D completion task where we design a novel algorithm for views extraction on 3D fracture data for model tuning and evaluate the result geometry through various 2D and 3D distribution metrics to showcase its potential.
     </p>
   </td>
+  
 </tr>
+    <tr onmouseout="presi_start()" onmouseover="presi_end()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='PRESI'></div>
+      <p></p>
+      <img src='images/PRESI_teaser.png' width=100%>
+    </div>
+    <script type="text/javascript">
+      function presi_start() {
+        document.getElementById('PRESI').style.opacity = "1";
+      }
+
+      function presi_end() {
+        document.getElementById('PRESI').style.opacity = "0";
+      }
+      presi_end()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a>
+      <span class="papertitle">HCVR Scene Generation: High Compatibility Virtual Reality Environment Generation for Extended Redirected Walking</span>
+    </a>
+    <br>
+    <strong>Yiran Zhang</strong>,
+    <a href="https://xingpengsun0.github.io/">Xingpeng Sun</a>,
+    <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>
+    <br>
+    <em>Proceeding to IEEE VR</em>, 2026
+    <br>
+    <a href="https://drive.google.com/drive/folders/1VOov8tC6D1BlGFQod9uIFSnHa5cEsgUx?usp=sharing">Source Code</a>
+    <p>
+      HCVR virtual scene generation framework optimized for VR navigation and compatible with alignment-based redirected walking controller to provide user a unique natural walking interface.
+    </p>
+  </td>
+</tr>
+
+<tr onmouseout="trustGPT_start()" onmouseover="trustGPT_end()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='trustGPT'></div>
+          <p></p>
+          <img src='images/TrustGPT.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function trustGPT_start() {
+            document.getElementById('trustGPT').style.opacity = "1";
+          }
+
+          function trustGPT_end() {
+            document.getElementById('trustGPT').style.opacity = "0";
+          }
+          trustGPT_end()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/html/2408.01867v1">
+          <span class="papertitle">TrustNavGPT: Modeling Uncertainty to Improve Trustworthiness of Audio-Guided LLM-Based Robot Navigation</span>
+        </a>
+        <br>
+        <a href="https://xingpengsun0.github.io/">Xingpeng Sun</a>,
+        <strong>Yiran Zhang</strong>,
+        Xindi Tang,
+        <a href="https://sites.google.com/view/amritsinghbedi/home">Amrit Singh Bedi</a>,
+        <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>
+        <br>
+        <em>IROS</em>, 2024
+        <br>
+        <a href="https://www.arxiv.org/abs/2408.01867">arXiv</a>
+        <p>
+          An LLM-based audio-guided navigation agent that uses affective cues in spoken communication—elements to assess the trustworthiness of human commands. 
+        </p>
+        
+      </td>
+    </tr>
 
   </tbody></table>
 <!--  ----------------------- working papers --------------------------  -->

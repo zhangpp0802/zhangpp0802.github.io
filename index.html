@@ -23,7 +23,7 @@
                   Yiran Zhang
                 </p>
                 <p>
-                  I am currently a second-year Ph.D. in Computer Science at <a href="https://www.purdue.edu/">Purdue University</a> under the supervision of <a href="https://www.cs.purdue.edu/homes/ab/">Dr. Aniket Bera</a>. Before this, I was graduated at <a href="https://www.northwestern.edu/">Northwestern University</a> with a CS Master Degree and was fortunate to work with <a href="https://www.alexander.vision/">Dr. Emma Alexander</a>, <a href="https://dynresmanagement.com/index.html">Dr. Diego Klabjan</a>, and <a href="https://users.cs.northwestern.edu/~ian/">Dr. Ian Horswill</a>. I also received my B.S. in Computer Science and B.A. in Visual Fine Art double degrees from <a href="https://www.union.edu/">Union College</a>. My research passion lies in utilizing different learning techniques to create innovative solutions for computer graphics, VR/AR, and locomotion problems.
+                  I am currently a third-year Ph.D. in Computer Science at <a href="https://www.purdue.edu/">Purdue University</a> under the supervision of <a href="https://www.cs.purdue.edu/homes/ab/">Dr. Aniket Bera</a>. Before this, I was graduated at <a href="https://www.northwestern.edu/">Northwestern University</a> with a CS Master Degree and was fortunate to work with <a href="https://www.alexander.vision/">Dr. Emma Alexander</a>, <a href="https://dynresmanagement.com/index.html">Dr. Diego Klabjan</a>, and <a href="https://users.cs.northwestern.edu/~ian/">Dr. Ian Horswill</a>. I also received my B.S. in Computer Science and B.A. in Visual Fine Art double degrees from <a href="https://www.union.edu/">Union College</a>. My research passion lies in utilizing different learning techniques to create innovative solutions for computer graphics, VR/AR, and locomotion problems.
                 </p>
                 <!-- <p>
                   During free time, I like to play tennis and watch films, especially post-Neorealismo Italian films. I'm also a huge believer of future VR film. I believe it will change the instinct of film through immersiveness. Recently, I also start scripting for my first VR film. Feel free to email me if we share common interest!
@@ -135,6 +135,45 @@
     </p>
   </td>
 </tr>
+
+<tr onmouseout="meshDiffKF_start()" onmouseover="meshDiffKF_end()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='meshDiffKF'></div>
+      <p></p>
+      <img src='images/2dcues.png' width=100%>
+    </div>
+    <script type="text/javascript">
+      function meshDiffKF_start() {
+        document.getElementById('meshDiffKF').style.opacity = "1";
+      }
+
+      function meshDiffKF_end() {
+        document.getElementById('meshDiffKF').style.opacity = "0";
+      }
+      meshDiffKF_end()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a>
+      <span class="papertitle">XXXX Geometry Completion XXXX XXXX XXXX XXXX</span>
+    </a>
+    <br>
+    <strong>Yiran Zhang</strong>,
+    <a href="hhttps://hrishikeshvish.github.io/">Hrishikesh Viswanath</a>,
+    <a href="https://scholar.google.com/citations?user=DKMKhLEAAAAJ&hl=en&oi=ao">Sainan Liu</a>,
+    <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>,
+    
+    <br>
+    <em>CVPR</em>, 2026
+    <br>
+    <a href="https://github.com/zhangpp0802/3DHeadDiff">Source Code and Dataset (Public Soon...)</a>
+    <p>
+      We evaluate 3D generation SOTA model's ability to solve partial 2D to 3D completion task where we design a novel algorithm for views extraction on 3D fracture data for model tuning and evaluate the result geometry through various 2D and 3D distribution metrics to showcase its potential.
+    </p>
+  </td>
+</tr>
+
   </tbody></table>
 <!--  ----------------------- working papers --------------------------  -->
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -169,18 +208,16 @@
     <a href="https://www.cs.purdue.edu/homes/ab/">Aniket Bera</a>,
     
     <br>
-    <em>AAAI workshop</em>, 2026
-     <br>
-    <em>CVPR</em>, 2026
+    <em>ECCV</em>, 2026
     <br>
     <a href="https://github.com/zhangpp0802/3DHeadDiff">Source Code (Public Soon...)</a>
     <p>
-      Our model generates a 3D geometry model that captures the features appear in the conditioning 2D image where contains one or more object fractures, and results are evaluated using our novel 2D to 3D descriptor metrics.
+      We extend our previous paper's fracture dataset to include fractured data from large complete 3D dataset with our decomposing algorithm. With larger dataset, our model can generate high fidelity 3D geometry model that captures the features appear in the partial 2D conditions. We also develop a new metrics to evaluate the feature similarity between the partial 2D data and the 3D result geometry.
     </p>
   </td>
 </tr>
 
-<tr onmouseout="RDWLLMPredict_start()" onmouseover="RDWLLMPredict_end()">
+<!-- <tr onmouseout="RDWLLMPredict_start()" onmouseover="RDWLLMPredict_end()">
         <td style="padding:16px;width:20%;vertical-align:middle">
           <div class="one">
             <div class="two" id='RDWLLM'></div>
@@ -217,7 +254,7 @@
           </p>
           
         </td>
-      </tr>
+      </tr> -->
 </tbody></table>
 
 <!--  ----------------------- Ongoing Research --------------------------  -->
